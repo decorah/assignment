@@ -1,0 +1,39 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+  background-color: grey;
+  box-sizing: border-box;
+}
+.container{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-height:100vh;
+  align-items:center;
+  Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400;
+  
+}
+
+.one{
+  background-color: #e38826;
+  padding: 2em;
+  
+  
+}
+.two{
+  background-color: #006970;
+  padding: 2em;
+  
+}
+.three{
+  background-color: #004241;
+  padding: 2em;
+}
+.submit{
+  border-radius:50px;
+  
+}

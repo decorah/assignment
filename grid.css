@@ -1,0 +1,45 @@
+html,body{
+  background-color:#918888;
+  width:100%;
+  display:flex;
+  place-items:center;
+ min-height:100vh;
+  
+
+}
+main{
+  display: grid;
+  
+  grid-template-areas:
+    'a a b'
+  'c d d'
+  'c e e'; 
+  gap:10px; 
+  width:50%;
+  margin:auto;
+  
+}
+main div{
+  padding: 2em; border-radius:5px;
+}
+.a{
+  background-color: orangered;
+  grid-area: a;
+  
+}
+.b{
+  background-color: yellow;
+  grid-area: b;
+}
+.c{
+  background-color: green;
+  grid-area: c;
+}
+.d{
+  background-color: blue;
+  grid-area: d;
+}
+.e{
+  background-color: blue;
+  grid-area: e;
+}
