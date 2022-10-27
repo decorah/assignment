@@ -9,29 +9,96 @@
 </head>
 
 <body>
-  <div id="header">
-  <div class="topnav">
-  
-  <a class="active" href= "index.html">home</a>
-   <a href= "aboutme.html">about</a>  <a href= "service.html">service</a>
- <a href= "https://orahsdigital.go.studio/">blog</a>
-<a href= "contact.html">contact</a>
+  <div>
+    <form-box>
+  <header><h1 >Registration</h1></header>
+  <table>
+    <tr>
+      <td>
+        <label for="firstname">First name</label>
+      </td>
+      <td>
+        <input type="text" class="input-group" placeholder="first" 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="lastname">Last name</label>
+      </td>
+      <td>
+        <input type="text" class="input-group" placeholder="lastname" required> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="tel">Phone number</label>
+      </td>
+      <td>
+        <input type="tel" class="input-group" placeholder="phone number" required> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="email">Email</label>
+      </td>
+      <td>
+        <input type="email" class="input-group" placeholder="email" required> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="gender">Gender</label>
+        
+      </td>
+      <td>
+       <select name="gender"id="gender">
+          <option value="none"></option> <option value="male">male</option>
+           <option value="female">female</option>
+           <option value="other">other</option> required> </select>
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="date">Date Of Birth</label>
+      </td>
+      <td>
+        <input type="date" class="input-group" placeholder="date of birth" required> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="color"> Favorite Color</label>
+      </td>
+      <td>
+        <input type="color" class="input-group" placeholder="favoritecolor" required> 
+      </td>
+    </tr>
+    <tr rowspan="2" colspan="2">
+      <td >
+        <button type="submit" class="submit-btn"><a  href="sucess.html">register</a>
+          </button>
+        
+      </td>
+      </tr>
+  </table>
+    </form-box>
   </div>
-  </div>
-  <div class="hero-image">
-<div class="hero-text">
-  <h1 style="font-size:30px"> Obiorah chidinma</h1>
-<img src="https://pbs.twimg.com/profile_images/1475571963280113671/pi7NppiZ.jpg" alt="my picture">
-  <p><h2>Front-end developer</h2><br>I assist my client build interactive,responsive and beautiful websites
-  </p>
-  <button><a href=" https://codepen.io/Decorah">viewproject</a>
-  </button>
-</div>
+  <div id="footer">
+    
+  
+    <h3>
+      if you already have an account <a href="login.html">login here</a>
+      
+    </h3>
   </div>
   
   
-
-
+      
+  
+  
+  
+  
   <script src="script.js"></script>
 
  <!--
